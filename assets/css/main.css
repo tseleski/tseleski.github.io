@@ -2222,8 +2222,15 @@ input, select, textarea {
 		.evernote-img {
 			width: auto;
 			height: auto;
-			max-height: 460px;
-			max-width: 460px;
+			max-height: 100%;
+			/* max-width: 100%; */
+		}
+
+		.doodlepop-img {
+			width: auto;
+			height: auto;
+			max-height: 100%;
+			max-width: 100%;
 		}
 
 			.image.icon:before {
@@ -2777,10 +2784,10 @@ input, select, textarea {
 			max-height: 350px;
 		}
 
-			#header .logo.fa-paper-plane-o:before {
-				left: -0.075em;
-				position: relative;
-			}
+		#header .logo.fa-paper-plane-o:before {
+			left: -0.075em;
+			position: relative;
+		}
 
 		#header h1 {
 			font-size: 2.5em;
