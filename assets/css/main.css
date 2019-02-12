@@ -2030,6 +2030,13 @@ input, select, textarea {
 					margin-bottom: 1em;
 				}
 
+				header.major.last a {
+					margin-bottom: 10px;
+					line-height: 1.75em;
+					margin: 1.5em 0 0 0;
+					padding: 1.5em 1.5em 0 1.5em;
+				}
+
 	footer {
 		text-align: center;
 	}
@@ -2437,6 +2444,7 @@ input, select, textarea {
 
 	ul.icons {
 		cursor: default;
+		margin-top: 30px;
 	}
 
 		ul.icons li {
