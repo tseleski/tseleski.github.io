@@ -146,6 +146,12 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	h3 {
+		text-transform: none;
+		font-family: 'Coiny', cursive, sans-serif;
+		font-size: 45px;
+	}
+
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
 			text-decoration: none;
@@ -2712,16 +2718,20 @@ input, select, textarea {
 
 	#header {
 		background-attachment: scroll,							scroll,					fixed;
-		background-image: url("images/top-1600.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+		background-image: url("images/top-1600.svg"), url("../../images/blurry.jpg"), url("../../images/header.jpg");
 		background-position: bottom center,					top left,				center center;
 		background-repeat: repeat-x,						repeat,					no-repeat;
-		background-size: 3200px 460px,					auto,					cover;
+		background-size: 3200px 460px,					3200px 1080px,					cover;
 		color: rgba(255, 255, 255, 0.8);
-		padding: 10em 0 20em 0;
+		/* color: #4c4e51; */
+		padding: 10em 0 0em 0;
 		position: relative;
 		text-align: center;
 	}
 
+	.header-subtitle {
+		font-size: 25px;
+	}
 		#header:before, #header:after {
 			background: rgba(224, 224, 224, 0.75);
 			content: '';
@@ -2786,6 +2796,7 @@ input, select, textarea {
 
 		.profile-pic {
 			border-radius: 10%;
+			border: 3px solid white;
 			height: auto; 
 			width: auto; 
 			max-width: 350px; 
@@ -2828,7 +2839,9 @@ input, select, textarea {
 
 	#footer {
 		background-attachment: scroll;
-		background-color: #4eb980;
+		/* background-color: #4eb980; */
+		/* background-color: #4e96b9; */
+		background-color: #474148;
 		background-image: url("images/bottom-3200.svg");
 		background-position: top center;
 		background-repeat: repeat-x;
@@ -2985,7 +2998,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 8em 0 16em 0;
+				padding: 8em 0 0em 0;
 			}
 
 				#header h1 {
