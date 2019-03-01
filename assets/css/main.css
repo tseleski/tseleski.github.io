@@ -2717,11 +2717,11 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		background-attachment: scroll,							scroll,					fixed;
-		background-image: url("images/top-1600.svg"), url("../../images/blurry.jpg"), url("../../images/header.jpg");
-		background-position: bottom center,					top left,				center center;
-		background-repeat: repeat-x,						repeat,					no-repeat;
-		background-size: 3200px 460px,					3200px 1080px,					cover;
+		background-attachment: scroll,							scroll;
+		background-image: url("images/top-1600.svg"), url("../../images/blurry.jpg");
+		background-position: bottom center,					top left;
+		background-repeat: repeat-x,						repeat;
+		background-size: 3200px 460px,					3200px 1080px;
 		color: rgba(255, 255, 255, 0.8);
 		/* color: #4c4e51; */
 		padding: 10em 0 0em 0;
@@ -2817,6 +2817,10 @@ input, select, textarea {
 			font-size: 1.5em;
 			line-height: 1.5em;
 			margin: 0.25em 0 0 0;
+		}
+
+		.languages {
+			margin-left: 30px;
 		}
 
 		.languages .icons {
